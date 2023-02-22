@@ -1,7 +1,7 @@
 export default function Home(){
     return(
       <main className='h-full flex justify-center content-center items-center flex-col leading-loose'>
-        <h1 className='text-4xl md:text-6xl underline-offset-2'>I am a <u><em>Full Stack Developer</em></u>.</h1>
+        <h1 className='animate text-4xl md:text-6xl underline-offset-2'>I am a <u><em>Full Stack Developer</em></u>.</h1>
         <br></br>
         <br></br>
         <div className='flex'>

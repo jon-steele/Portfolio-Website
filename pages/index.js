@@ -1,10 +1,13 @@
 import Head from 'next/head';
+import Script from 'next/script';
+
 import Layout from '@/components/layout.js';
-import Home from '@/components/sections/Home'
-import About from '@/components/sections/About'
-import Skills from '@/components/sections/Skills'
-import Contact from '@/components/sections/Contact'
-import Projects from '@/components/sections/Projects'
+
+import Home from '@/components/sections/Home';
+import About from '@/components/sections/About';
+import Skills from '@/components/sections/Skills';
+import Contact from '@/components/sections/Contact';
+import Projects from '@/components/sections/Projects';
 
 export default function Index() {
   return (
@@ -15,6 +18,8 @@ export default function Index() {
           <title>Jon Steele</title>
           <link rel="shortcut icon" href="/favicon.ico" />
         </Head>
+
+        <Script src='/animations.js' />
 
         {/* HOME */}
         <section className='h-screen bg-wave1 bg-bottom bg-no-repeat bg-cover'>

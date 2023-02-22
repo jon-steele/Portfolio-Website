@@ -4,7 +4,7 @@ export default function Skills() {
   return(
     <div className='flex flex-col md:flex-row items-center w-screen'>
       <section className='w-full h-full text-center p-4'>
-        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2">Languges</h>
+        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2 animate">Languges</h>
         <br></br>
         <br></br>
         <SkillHeader title="Java & C++"/>
@@ -13,7 +13,7 @@ export default function Skills() {
         <SkillHeader title="Php"/>
       </section>
       <section className='w-full h-full text-center p-4'>
-        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2">Frameworks</h>
+        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2 animate">Frameworks</h>
         <br></br>
         <br></br>
         <SkillHeader title="Laravel"/>
@@ -22,7 +22,7 @@ export default function Skills() {
         <SkillHeader title="Express"/>
       </section>
       <section className='w-full h-full text-center p-4'>
-        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2">Tools</h>
+        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2 animate">Tools</h>
         <br></br>
         <br></br>
         <SkillHeader title="Git"/>
