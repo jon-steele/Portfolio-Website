@@ -1,16 +1,16 @@
 import Image from 'next/image';''
-import vocipng from '@/components/images/voci.png';
-import budgetpng from '@/components/images/budget.png';
+import vocipng from '@/public/images/voci.png';
+import budgetpng from '@/public/images/budget.png';
 
 export default function Projects() {
   return (
     <div>
 
-      <h1 className='text-4xl ml-16 mb-24'>Projects</h1>
+      <h1 className='text-4xl ml-16 mb-12'>Projects</h1>
 
-      <div className='flex justify-around'>
+      <div className='flex flex-col md:flex-row justify-around'>
 
-        <div className='flex items-center border-slate-100 border-4 rounded-md p-4'>
+        <div className='flex items-center p-4'>
           <div>
             <h1 className='font-ds text-4xl mb-6'>Voice Operated Flashcards</h1>
             <h1 className='font-nun text-2xl mb-4'>Noteable Features:</h1>
@@ -34,7 +34,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className='flex items-center border-slate-100 border-4 rounded-md p-4'>
+        <div className='flex items-center p-4'>
           <div>
             <h1 className='font-ds text-4xl mb-6'>Finance Projection</h1>
             <h1 className='font-nun text-2xl mb-4'>Noteable Features:</h1>

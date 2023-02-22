@@ -2,28 +2,33 @@ import SkillHeader from '@/components/skills/skill-header.js';
 
 export default function Skills() {
   return(
-    <div className='flex flex-col justify-center items-center content-center w-screen leading-loose px-12 md:px-36 lg:px-48'>
-      <section className='w-full text-left p-4'>
-        <h className="text-4xl">Languges</h>
-        <SkillHeader title="Java"/>
-        <SkillHeader title="c++"/>
-        <SkillHeader title="html & css"/>
+    <div className='flex flex-col md:flex-row items-center w-screen'>
+      <section className='w-full h-full text-center p-4'>
+        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2">Languges</h>
+        <br></br>
+        <br></br>
+        <SkillHeader title="Java & C++"/>
+        <SkillHeader title="Html & Css"/>
         <SkillHeader title="JavaScript"/>
-        <SkillHeader title="php"/>
+        <SkillHeader title="Php"/>
       </section>
-      <section className=' bg-gray-700 text-slate-200 w-full text-right p-4'>
-        <h className="text-4xl">Frameworks</h>
+      <section className='w-full h-full text-center p-4'>
+        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2">Frameworks</h>
+        <br></br>
+        <br></br>
         <SkillHeader title="Laravel"/>
-        <SkillHeader title="Node"/>
-        <SkillHeader title="React & Next"/>
+        <SkillHeader title="React"/>
+        <SkillHeader title="Next"/>
         <SkillHeader title="Express"/>
       </section>
-      <section className='w-full text-left p-4'>
-        <h className="text-4xl">Other Tools</h>
+      <section className='w-full h-full text-center p-4'>
+        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2">Tools</h>
+        <br></br>
+        <br></br>
         <SkillHeader title="Git"/>
+        <SkillHeader title="Node"/>
         <SkillHeader title="Tailwind"/>
         <SkillHeader title="MySQL"/>
-        <SkillHeader title="VsCode"/>
       </section>
     </div>
   );

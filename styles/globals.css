@@ -116,10 +116,44 @@ a {
   background-position-y: 100px;
 }
 
-.h-120vh{
-  height: 120vh;
+.h-50vh{
+  height: 50vh;
 }
 
 .h-60vh{
   height: 60vh;
 }
+
+.h-80vh{
+  height: 80vh;
+}
+
+@media (max-width: 768px) {
+  .h-custom{
+    height: 130vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-custom{
+    height: 80vh;
+  }
+}
+
+.h-120vh{
+  height: 120vh;
+}
+
+.h-130vh{
+  height: 130vh;
+}
+
+.h-140vh{
+  height: 140vh;
+}
+
+.h-160vh{
+  height: 160vh;
+}
+
+

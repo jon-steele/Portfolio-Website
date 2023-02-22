@@ -1,12 +1,11 @@
 export default function About() {
     return(
-        <div className='flex flex-col items-center content-center h-full font-nun text-xl leading-loose'>
-            <section className='w-2/3 text-4xl flex'>
-                <h className="font-ds text-7xl mr-24">Who am I?</h>
-                <br></br>
-                <br></br>
-                <br></br>
-                <p className="font-nun text-2xl ml-48">
+        <div className="flex">
+            <section className='w-screen text-4xl flex flex-col md:flex-row items-center justify-evenly'>
+                
+                <h className="text-center font-ds text-7xl">Who am I?</h>
+
+                <p className="text-center font-nun text-2xl">
                     <br></br>
                     I'm a mountain biker,
                     <br></br>
