@@ -1,3 +1,4 @@
+// Returns a linkedin logo, wrapped inside of a link that leads the user to my linkedin
 export default function Linkedin() {
     return (
         <a href="https://www.linkedin.com/in/jon-steele-1a5b99174/" target="_blank" rel="noreferrer">

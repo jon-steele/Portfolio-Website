@@ -1,3 +1,4 @@
+// SkillHeader is used in the "skills" section, and is a component used to display each different skill.
 export default function SkillHeader(props){
     return(
         <div>

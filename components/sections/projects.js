@@ -8,8 +8,10 @@ export default function Projects() {
 
       <h1 className='text-4xl ml-16 mb-12'>Projects</h1>
 
+      {/* Container which holds all projects */}
       <div className='flex flex-col md:flex-row justify-around'>
 
+        {/* Project one */}
         <div className='flex items-center p-4'>
           <div>
             <h1 className='font-ds text-4xl mb-6'>Voice Operated Flashcards</h1>
@@ -34,6 +36,7 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* Project two */}
         <div className='flex items-center p-4'>
           <div>
             <h1 className='font-ds text-4xl mb-6'>Finance Projection</h1>

@@ -1,3 +1,4 @@
+// Returns a Gihub image, wrapped inside of a link, which leads the user to my github page
 export default function Github() {
     return (
         <a href="https://github.com/jon-steele" target="_blank" rel="noreferrer">

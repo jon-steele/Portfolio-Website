@@ -1,3 +1,4 @@
+// Returns an email image, wrapped inside of a link, which leads the user to my email.
 export default function Email() {
     return (
         <a href="mailto:mrjonsteele@gmail.com">
