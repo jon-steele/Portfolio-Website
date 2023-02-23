@@ -11,7 +11,7 @@ export function Header(){
       
       {/* Title, Email & Resume */}
       <div className='flex items-center'>
-        <Link className="p-4 text-xl md:text-3xl hover:text-gray-700 hover:bg-slate-100 mr-4" href='#home'>Jon Steele</Link>
+        <Link className="p-4 text-xl md:text-3xl hover:text-gray-700 hover:bg-slate-100 mr-4 transition duration-500 ease-in-out" href='#home'>Jon Steele</Link>
         <a href='/images/Jon_Resume.pdf' target="_blank" className='bg-slate-100 text-gray-700 p-2 rounded-md'>Resume</a>
         <a href='mailto:mrjonsteele@gmail.com' target="_blank" className='bg-slate-100 text-gray-700 p-2 rounded-md mx-2' rel="noreferrer">Email</a>
       </div>
@@ -21,10 +21,10 @@ export function Header(){
 
       {/* Navigation links */}
       <nav className={`${open ? "block" : "hidden"} bg-gray-700 fixed right-0 top-16 lg:static flex flex-col lg:block lg:flex-row`}>
-        <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100" href='#projects'>Projects</Link>
-        <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100" href='#skills'>Skills</Link>
-        <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100" href='#about'>About</Link>
-        <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100" href='#contact'>Contact</Link>
+        <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100 transition duration-500 ease-in-out" href='#projects'>Projects</Link>
+        <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100 transition duration-500 ease-in-out" href='#skills'>Skills</Link>
+        <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100 transition duration-500 ease-in-out" href='#about'>About</Link>
+        <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100 transition duration-500 ease-in-out" href='#contact'>Contact</Link>
       </nav>
 
     </header>

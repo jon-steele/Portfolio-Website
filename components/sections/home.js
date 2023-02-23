@@ -1,6 +1,6 @@
-export default function Home(){
+export default function Home(props){
     return(
-      <main className='h-full flex justify-center content-center items-center flex-col leading-loose'>
+      <main className={`h-full flex justify-center content-center items-center flex-col leading-loose ${props}`}>
         
         <h1 className='animate text-4xl md:text-6xl underline-offset-2 mb-16'>I am a <u><em>Full Stack Developer</em></u>.</h1>
 

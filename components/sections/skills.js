@@ -1,38 +1,41 @@
 import SkillHeader from '@/components/skills/skill-header.js';
 
-export default function Skills() {
+export default function Skills(props) {
   return(
-    <div className='flex flex-col md:flex-row items-center w-screen'>
-      <section className='w-full h-full text-center p-4'>
-        
-        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md mb-32 p-2 animate">Languges</h>
+    <div className={`${props}`}>
 
-        <SkillHeader title="Java & C++"/>
-        <SkillHeader title="Html & Css"/>
-        <SkillHeader title="JavaScript"/>
-        <SkillHeader title="Php"/>
+      <div className='flex flex-col md:flex-row items-center w-screen'>
+        <div className='w-full h-full flex flex-col justify-center items-center'>
+          
+          <h1 className="text-4xl text-slate-100 bg-gray-700 rounded-md animate p-2 w-min my-6">Languges</h1>
 
-      </section>
-      <section className='w-full h-full text-center p-4'>
-        
-        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2 animate">Frameworks</h>
+          <SkillHeader title="Java & C++"/>
+          <SkillHeader title="Html & Css"/>
+          <SkillHeader title="JavaScript"/>
+          <SkillHeader title="Php"/>
 
-        <SkillHeader title="Laravel"/>
-        <SkillHeader title="React"/>
-        <SkillHeader title="Next"/>
-        <SkillHeader title="Express"/>
+        </div>
+        <div className='w-full h-full flex flex-col justify-center items-center'>
+          
+          <h1 className="text-4xl text-slate-100 bg-gray-700 rounded-md animate p-2 w-min my-6">Frameworks</h1>
 
-      </section>
-      <section className='w-full h-full text-center p-4'>
-        
-        <h className="text-4xl text-slate-100 bg-gray-700 rounded-md p-2 animate">Tools</h>
+          <SkillHeader title="Laravel"/>
+          <SkillHeader title="React"/>
+          <SkillHeader title="Next"/>
+          <SkillHeader title="Express"/>
 
-        <SkillHeader title="Git"/>
-        <SkillHeader title="Node"/>
-        <SkillHeader title="Tailwind"/>
-        <SkillHeader title="MySQL"/>
+        </div>
+        <div className='w-full h-full flex flex-col justify-center items-center'>
+          
+          <h1 className="text-4xl text-slate-100 bg-gray-700 rounded-md animate p-2 w-min my-6">Tools</h1>
 
-      </section>
+          <SkillHeader title="Git"/>
+          <SkillHeader title="Node"/>
+          <SkillHeader title="Tailwind"/>
+          <SkillHeader title="MySQL"/>
+
+        </div>
+      </div>
     </div>
   );
 }

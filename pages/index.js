@@ -24,31 +24,31 @@ export default function Index() {
         {/* HOME */}
         <section className='h-screen bg-wave1 bg-bottom bg-no-repeat bg-cover'>
           <a id="home" className='block relative invisible -top-48'></a>
-          <Home />
+          <Home className="clearfix" />
         </section>
 
         {/* PROJECTS */}
         <section className='h-120vh md:h-50vh bg-gray-700 text-slate-100 bg-wave2 bg-bottom bg-no-repeat bg-cover -mt-24'>
           <a id="projects" className='block relative invisible -top-20'></a>
-          <Projects />
+          <Projects className="clearfix" />
         </section>
 
         {/* SKILLS */}
         <section className='h-custom bg-wave3 bg-bottom bg-no-repeat bg-cover -mt-36 md:-my-24'>
           <a id="skills" className='block relative invisible -top-80'></a>
-          <Skills />
+          <Skills className="clearfix" />
         </section>
 
         {/* ABOUT */}
-        <section  className='h-screen bg-gray-700 text-slate-100 bg-wave4 bg-bottom bg-no-repeat bg-cover -pt-24'>
+        <section  className='h-120vh md:screen lg:60vh bg-gray-700 text-slate-100 bg-wave4 bg-bottom bg-no-repeat bg-cover -pt-24'>
           <a id="about" className='block relative invisible -top-96'></a>
-          <About />
+          <About className="clearfix" />
         </section>
 
         {/* CONTACT */}
         <section className='h-60vh'>
           <a id="contact" className='block relative invisible -top-12' ></a>
-          <Contact />
+          <Contact className="clearfix" />
         </section>
       </Layout>
 
