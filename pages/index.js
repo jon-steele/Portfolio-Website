@@ -11,7 +11,7 @@ import Projects from '@/components/sections/Projects';
 
 export default function Index() {
   return (
-    <div>
+    <div className='clearfix'>
       <Layout>
 
         <Head>
@@ -28,25 +28,25 @@ export default function Index() {
         </section>
 
         {/* PROJECTS */}
-        <section className='h-120vh md:h-50vh bg-gray-700 text-slate-100 bg-wave2 bg-bottom bg-no-repeat bg-cover -mt-24'>
+        <section className='projects-height-custom bg-gray-700 text-slate-100 bg-wave2 bg-bottom bg-no-repeat bg-cover -mt-12'>
           <a id="projects" className='block relative invisible -top-20'></a>
           <Projects className="clearfix" />
         </section>
 
         {/* SKILLS */}
-        <section className='h-custom bg-wave3 bg-bottom bg-no-repeat bg-cover -mt-36 md:-my-24'>
+        <section className='skills-height-custom bg-wave3 bg-bottom bg-no-repeat bg-cover'>
           <a id="skills" className='block relative invisible -top-80'></a>
           <Skills className="clearfix" />
         </section>
 
         {/* ABOUT */}
-        <section  className='h-120vh md:screen lg:60vh bg-gray-700 text-slate-100 bg-wave4 bg-bottom bg-no-repeat bg-cover -pt-24'>
+        <section  className='about-height-custom lg:60vh bg-gray-700 text-slate-100 bg-wave4 bg-bottom bg-no-repeat bg-cover -mt-52'>
           <a id="about" className='block relative invisible -top-96'></a>
           <About className="clearfix" />
         </section>
 
         {/* CONTACT */}
-        <section className='h-60vh'>
+        <section className='contact-height-custom'>
           <a id="contact" className='block relative invisible -top-12' ></a>
           <Contact className="clearfix" />
         </section>

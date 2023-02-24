@@ -6,7 +6,7 @@ export default function Contact(props) {
   return (
     <div className={`font-nun text-2xl flex flex-col justify-center items-center ${props}`}>
 
-      <div className='flex'>
+      <div className='flex flex-col md:flex-row'>
         <Email />
         <Github />
         <Linkedin />

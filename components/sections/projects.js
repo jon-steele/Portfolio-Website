@@ -6,15 +6,15 @@ export default function Projects(props) {
   return (
     <div className={`flex flex-col items-center ${props}`}>
 
-      <h1 className='text-4xl text-center mb-4'>My favourite projects</h1>
+      <h1 className='text-4xl text-center mb-16'>My Projects</h1>
 
       {/* Container which holds all projects */}
       <div className='flex flex-col md:flex-row justify-around'>
 
         {/* Project one */}
-        <div className='flex items-left p-4'>
+        <div className='flex flex-col items-left p-4'>
           <div className='flex flex-col justify-top'>
-            <h1 className='font-ds text-4xl mb-6'>Voice operated flashcards</h1>
+            <h1 className='font-nun text-4xl mb-6 text-center'>Voice operated flashcards</h1>
             <ul className='font-nun font-medium font-lg bg-slate-100 text-gray-700 list-disc list-inside p-4 rounded-md'>
               <li>Voice recognition</li>
               <li>Text to speech</li>
@@ -23,7 +23,7 @@ export default function Projects(props) {
               <li>Security protection</li>
               <li>Database integration</li>
             </ul>
-            <p className='font-nun mt-12'>
+            <p className='font-nun mt-12 text-center'>
               PHP | JavaScript | MySQL | Laravel | HTML | CSS | Tailwind
             </p>
           </div>
@@ -37,15 +37,15 @@ export default function Projects(props) {
         </div>
 
         {/* Project two */}
-        <div className='flex items-left p-4'>
+        <div className='flex flex-col items-left p-4'>
           <div className='flex flex-col justify-top'>
-            <h1 className='font-ds text-4xl mb-6'>Finance projection</h1>
+            <h1 className='font-nun text-4xl mb-6 text-center'>Finance projection</h1>
             <ul className='font-nun font-medium font-lg bg-slate-100 text-gray-700 list-disc list-inside p-4 rounded-md'>
               <li>Compound interest calculator</li>
               <li>Income tax calculator</li>
               <li>Finance projection up to 30 years</li>
             </ul>
-            <p className='font-nun mt-12'>
+            <p className='font-nun mt-12 text-center'>
               Java | Java Swing
             </p>
           </div>

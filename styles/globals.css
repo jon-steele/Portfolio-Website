@@ -116,45 +116,114 @@ a {
   background-position-y: 100px;
 }
 
-.h-50vh{
-  height: 50vh;
-}
+/* Responsive Design for Sections */
 
-.h-60vh{
-  height: 60vh;
-}
-
-.h-80vh{
-  height: 80vh;
-}
-
+/* Projects */
 @media (max-width: 768px) {
-  .h-custom{
-    height: 130vh;
+  .projects-height-custom{
+    height: 2000px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projects-height-custom{
+    height: 1000px;
+  }  
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .projects-height-custom{
+    height: 100px;
+  } 
+}
+
+@media (min-width: 1280px) {
+  .projects-height-custom{
+    height: 1600px;
+  }  
+}
+
+/* Skills */
+@media (max-width: 768px) {
+  .skills-height-custom{
+    margin-top: -12px;
+    height: 1600px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  .skills-height-custom{
+    margin-top: -150px;
+    height: 650px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 2200px)  {
+  .skills-height-custom{
+    margin-top: -150px;
+    height: 800px;
+  }
+}
+
+@media (min-width: 2200px)  {
+  .skills-height-custom{
+    margin-top: -150px;
+    height: 1000px;
+  }
+}
+
+
+/* About */
+@media (max-width: 640px) {
+  .about-height-custom{
+    margin-top: -100px;
+    height: 2000px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .about-height-custom{
+    margin-top: -100px;
+    height: 1200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-height-custom{
+    margin-top: -100px;
+    height: 1000px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-height-custom{
+    margin-top: -100px;
+    height: 1200px;
+  }
+}
+
+/* Contact */
+@media (max-width: 640px) {
+  .contact-height-custom{
+    margin-top: -120px;
+    height: 800px;
+  }
+}
+
+  @media (min-width: 640px) and (max-width: 768px) {
+  .contact-height-custom{
+    margin-top: -36px;
+    height: 650px;
   }
 }
 
 @media (min-width: 768px) {
-  .h-custom{
-    height: 80vh;
+  .contact-height-custom{
+    margin-top: -12px;
+    height: 400px;
   }
 }
 
-.h-120vh{
-  height: 120vh;
-}
-
-.h-130vh{
-  height: 130vh;
-}
-
-.h-140vh{
-  height: 140vh;
-}
-
-.h-160vh{
-  height: 160vh;
-}
+/* Animations */
 
 .animate {
   opacity: 0;
@@ -173,6 +242,35 @@ a {
   content: "";
   display: table;
   clear: both;
+}
+
+/* Screen View Hieghts */
+.h-50vh{
+  height: 50vh;
+}
+
+.h-60vh{
+  height: 60vh;
+}
+
+.h-80vh{
+  height: 80vh;
+}
+
+.h-120vh{
+  height: 120vh;
+}
+
+.h-130vh{
+  height: 130vh;
+}
+
+.h-140vh{
+  height: 140vh;
+}
+
+.h-160vh{
+  height: 160vh;
 }
 
 
