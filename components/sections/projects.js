@@ -1,5 +1,5 @@
 import Image from 'next/image';''
-import vocipng from '@/public/images/voci.png';
+import vocipng from '@/public/images/voci1.png';
 import budgetpng from '@/public/images/budget.png';
 
 export default function Projects(props) {
@@ -28,10 +28,10 @@ export default function Projects(props) {
             </p>
           </div>
           <div className='relative p-4'>
-            <Image className='w-96' src={vocipng} alt='image of voci' />
+          <a href='https://www.voci.app' target="_blank" rel="noreferrer"><Image className='w-96' src={vocipng} alt='image of voci' /></a>
             <div className='flex justify-evenly mt-4'>
-              <h1 className='bg-slate-100 text-gray-700 rounded-md p-2'>Try It!</h1>
-              <h1 className='bg-slate-100 text-gray-700 rounded-md p-2'>Source Code</h1>
+              <a href='https://www.voci.app' target="_blank" rel="noreferrer"><h1 className='bg-slate-100 text-gray-700 rounded-md p-2'>www.voci.app</h1></a>
+              <a href='https://github.com/jon-steele/voci' target="_blank" rel="noreferrer"><h1 className='bg-slate-100 text-gray-700 rounded-md p-2'>Source Code</h1></a>
             </div>
           </div>
         </div>

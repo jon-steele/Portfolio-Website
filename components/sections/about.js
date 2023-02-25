@@ -11,7 +11,7 @@ export default function About(props) {
                     in my last three semesters and landing my name on the <em className="font-bold">Dean&apos;s List. </em>
                     I have strong foundational knowledge in programming languages, design models, and time complexity.
                     I work hard for my team, achieving <em className="font-bold">Employee of the Year</em> in 2020 at my previous job as a lifeguard.
-                    In my spare time, I love to learn about new technologies, most recently adding React, Next, and Tailwind into my bag.
+                    In my spare time, I love to learn about new technologies, most recently adding React, Next, and Tailwind into my skillset.
                     Technology is something that excites me, as I see the impact it can make on our lives.
                     If you think you can use my skills, please reach out to me via <a href="mailto:mrjonsteele@gmail.com">
                     <em className="font-bold">email</em>,</a> or call me at <a href="tel:+6049976356"><em className="font-bold">604 - 997 - 6356</em>.</a>
