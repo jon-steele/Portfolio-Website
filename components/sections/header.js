@@ -24,6 +24,7 @@ export function Header(){
         <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100 transition duration-500 ease-in-out" href='#projects'>Projects</Link>
         <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100 transition duration-500 ease-in-out" href='#skills'>Skills</Link>
         <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100 transition duration-500 ease-in-out" href='#about'>About</Link>
+        <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100 transition duration-500 ease-in-out" href='#hobbies'>Hobbies</Link>
         <Link className="p-4 text-3xl hover:text-gray-700 hover:bg-slate-100 transition duration-500 ease-in-out" href='#contact'>Contact</Link>
       </nav>
 
