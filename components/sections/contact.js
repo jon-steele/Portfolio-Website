@@ -4,12 +4,12 @@ import Linkedin from '@/components/socials/linkedin.js';
 
 export default function Contact({className}) {
   return (
-    <div className={className}>
+    <section className={className}>
 
       <Email />
       <Github />
       <Linkedin />
       
-    </div>
+    </section>
   )
 }
