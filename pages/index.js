@@ -12,7 +12,7 @@ import Hobbies from '@/components/sections/Hobbies';
 
 export default function Index() {
   return (
-    <div className='clearfix'>
+    < >
       <Layout>
 
         <Head>
@@ -23,31 +23,31 @@ export default function Index() {
         <Script src='/animations.js' />
 
         {/* HOME */}
-        <section className='h-screen bg-wave1 bg-bottom bg-no-repeat bg-cover'>
+        <section className='snap-start h-screen bg-wave1 bg-bottom bg-no-repeat bg-cover'>
           <a id="home" className='block relative invisible -top-48'></a>
           <Home className="clearfix" />
         </section>
 
         {/* PROJECTS */}
-        <section className='projects-size-custom bg-gray-700 text-slate-100 bg-wave2 bg-bottom bg-no-repeat bg-cover -mt-12'>
+        <section className='snap-start projects-size-custom bg-gray-700 text-slate-100 bg-wave2 bg-bottom bg-no-repeat bg-cover -mt-12'>
           <a id="projects" className='block relative invisible -top-20'></a>
           <Projects className="clearfix" />
         </section>
 
         {/* SKILLS */}
-        <section className='skills-size-custom bg-wave3 bg-bottom bg-no-repeat bg-cover'>
+        <section className='snap-start skills-size-custom bg-wave3 bg-bottom bg-no-repeat bg-cover'>
           <a id="skills" className='block relative invisible -top-80'></a>
           <Skills className="clearfix" />
         </section>
 
         {/* ABOUT */}
-        <section  className='about-size-custom lg:60vh bg-gray-700 text-slate-100 bg-wave4 bg-bottom bg-no-repeat bg-cover -mt-52'>
+        <section  className='snap-start about-size-custom lg:60vh bg-gray-700 text-slate-100 bg-wave4 bg-bottom bg-no-repeat bg-cover -mt-52'>
           <a id="about" className='block relative invisible -top-96'></a>
           <About className="clearfix" />
         </section>
 
         {/* HOBBIES */}
-        <section className='hobbies-size-custom'>
+        <section className='snap-start hobbies-size-custom'>
           <a id="hobbies" className='block relative invisible -top-12' ></a>
           <Hobbies className="clearfix" />
         </section>
@@ -59,7 +59,7 @@ export default function Index() {
         </section>
       </Layout>
 
-    </div>
+    </ >
   )
 }
 

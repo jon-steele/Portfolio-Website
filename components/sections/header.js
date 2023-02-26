@@ -7,7 +7,7 @@ export function Header(){
   const [open, setOpen] = useState(false);
 
     return(
-    <header className='h-16 fixed w-screen top-0 z-50 flex justify-between items-center p-4 bg-gray-700 text-slate-100'>
+    <header className='h-16 fixed w-screen top-0 z-50 flex justify-between items-center p-4 bg-gray-700 text-slate-100 font-ds antialiased overflow-hidden'>
       
       {/* Title, Email & Resume */}
       <div className='flex items-center'>
