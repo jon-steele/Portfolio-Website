@@ -141,33 +141,45 @@ a {
   clear: both;
 }
 
+/* Section Waves */
+.transition {
+  min-height: 40rem;
+}
+
 /* Screen View Hieghts */
 .h-50vh{
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .h-60vh{
-  height: 60vh;
+  min-height: 60vh;
 }
 
 .h-80vh{
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .h-120vh{
-  height: 120vh;
+  min-height: 120vh;
 }
 
 .h-130vh{
-  height: 130vh;
+  min-height: 130vh;
 }
 
 .h-140vh{
-  height: 140vh;
+  min-height: 140vh;
 }
 
 .h-160vh{
-  height: 160vh;
+  min-height: 160vh;
 }
 
+.h-180vh{
+  min-height: 180vh;
+}
+
+.h-200vh{
+  min-height: 200vh;
+}
 

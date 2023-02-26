@@ -16,6 +16,7 @@ module.exports = {
         'wave2': "url('../components/svg/wave2.svg')",
         'wave3': "url('../components/svg/wave3.svg')",
         'wave4': "url('../components/svg/wave4.svg')",
+        'wave5': "url('../components/svg/wave5.svg')",
       }
     },
   },
