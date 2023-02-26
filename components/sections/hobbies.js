@@ -2,7 +2,7 @@ export default function Hobbies({className}){
   return(
     <section className={className}>
       
-      <h className="text-center font-ds text-7xl mx-auto">Hobbies</h>
+      <h className="text-center font-ds text-4xl md:text-6xl mx-auto">Hobbies</h>
 
       <p className="text-left font-nun text-xl md:text-2xl lg:text-3xl leading-10 !important font-normal break-words">
         In my spare time, I love to play guitar, sing, and produce music on my computer with Ableton. I have released 

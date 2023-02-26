@@ -1,7 +1,7 @@
 export default function About({className}) {
     return(
         <section className={className}> 
-            <h className="text-center font-ds text-7xl animate mx-auto">How can I help?</h>
+            <h className="text-center font-ds text-4xl md:text-6xl animate mx-auto">How can I help?</h>
 
             <p className="text-left font-nun text-xl md:text-2xl lg:text-3xl leading-10 !important font-normal break-words">
                 

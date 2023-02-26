@@ -6,7 +6,7 @@ export default function Projects({className}) {
   return (
     <section className={className}>
 
-      <h1 className='text-5xl text-center mb-8'>My Projects</h1>
+      <h1 className='text-center font-ds text-4xl md:text-6xl mx-auto mb-8'>My Projects</h1>
 
       {/* Container which holds all projects */}
       <div className='flex flex-col md:flex-row justify-around gap-8'>
