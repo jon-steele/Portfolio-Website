@@ -5,7 +5,7 @@ export default function About(props) {
                 
                 <h className="text-center font-ds text-7xl animate m-8">How can I help?</h>
 
-                <p className="text-left w-9/12 font-nun text-xl md:text-2xl lg:text-3xl leading-10 !important font-normal break-words m-8 text-gray-700 bg-slate-100 rounded-md p-8">
+                <p className="text-left font-nun text-xl md:text-2xl lg:text-3xl leading-10 !important font-normal break-words text-gray-700 bg-slate-100 rounded-md">
                     
                     In my studies, I excel in my algorithms & data structures courses, achieving a <em className="font-bold">3.93 GPA </em> 
                     in my last three semesters and landing my name on the <em className="font-bold">Dean&apos;s List. </em>

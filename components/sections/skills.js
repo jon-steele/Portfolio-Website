@@ -4,10 +4,10 @@ export default function Skills(props) {
   return(
     <div className={`${props}`}>
 
-      <div className='flex flex-col md:flex-row items-center w-screen'>
+      <div className='flex flex-col md:flex-row items-center'>
         <div className='w-full h-full flex flex-col justify-center items-center'>
           
-          <h1 className="text-4xl text-slate-100 bg-gray-700 rounded-md animate p-2 w-min my-6">Languges</h1>
+          <h1 className="text-4xl text-slate-100 bg-gray-700 rounded-md animate">Languges</h1>
 
           <SkillHeader title="Java & C++"/>
           <SkillHeader title="Html & Css"/>
@@ -15,9 +15,9 @@ export default function Skills(props) {
           <SkillHeader title="Php"/>
 
         </div>
-        <div className='w-full h-full flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center'>
           
-          <h1 className="text-4xl text-slate-100 bg-gray-700 rounded-md animate p-2 w-min my-6">Frameworks</h1>
+          <h1 className="text-4xl text-slate-100 bg-gray-700 rounded-md animate">Frameworks</h1>
 
           <SkillHeader title="Laravel"/>
           <SkillHeader title="React"/>
@@ -25,9 +25,9 @@ export default function Skills(props) {
           <SkillHeader title="Express"/>
 
         </div>
-        <div className='w-full h-full flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center'>
           
-          <h1 className="text-4xl text-slate-100 bg-gray-700 rounded-md animate p-2 w-min my-6">Tools</h1>
+          <h1 className="text-4xl text-slate-100 bg-gray-700 rounded-md animate">Tools</h1>
 
           <SkillHeader title="Git"/>
           <SkillHeader title="Node"/>
