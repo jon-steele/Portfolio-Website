@@ -38,11 +38,11 @@ export default function Index() {
 
         <div className='bg-wave3 bg-cover bg-bottom bg-no-repeat bg-slate-200 wave'></div>
 
-        <About className="px-4 md:px-16 py-16 bg-gray-700 text-slate-200 flex flex-col" />
+        <About className="px-4 md:px-16 py-16 bg-gray-700 text-slate-200 flex flex-col gap-8" />
 
         <div className='bg-wave4 bg-cover bg-bottom bg-no-repeat bg-gray-700 wave'></div>
 
-        <Hobbies className="px-4 md:px-16 py-16 flex flex-col" />
+        <Hobbies className="px-4 md:px-16 py-16 flex flex-col gap-8" />
 
         <div className='bg-wave5 bg-cover bg-bottom bg-no-repeat bg-slate-200 wave'></div>
 
