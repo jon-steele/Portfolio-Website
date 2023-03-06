@@ -2,13 +2,13 @@ import Head from 'next/head';
 import Script from 'next/script';
 import Image from 'next/image';
 
-import Home from '@/components/sections/Home';
-import About from '@/components/sections/About';
+import Home from '@/components/sections/home';
+import About from '@/components/sections/about';
 import Header from '@/components/sections/header';
-import Skills from '@/components/sections/Skills';
-import Contact from '@/components/sections/Contact';
-import Hobbies from '@/components/sections/Hobbies';
-import Projects from '@/components/sections/Projects';
+import Skills from '@/components/sections/skills';
+import Contact from '@/components/sections/contact';
+import Hobbies from '@/components/sections/hobbies';
+import Projects from '@/components/sections/projects';
 
 
 export default function Index() {
