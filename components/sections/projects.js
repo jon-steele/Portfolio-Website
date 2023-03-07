@@ -53,7 +53,7 @@ export default function Projects({className}) {
             </p>
           </div>
           <div className='p-4'>
-            <Image className='' src={vocipng} alt='image of budget app' />
+            <Image className='' src={budgetpng} alt='image of budget app' />
             <div className='flex justify-evenly mt-4'>
               <a href='/Budget.jar' download target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 mr-2'>Download</h1></a>
               <a href='https://github.com/jon-steele/Budget-Projection' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 ml-2'>Source</h1></a>
