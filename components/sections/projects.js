@@ -24,7 +24,7 @@ export default function Projects({className}) {
               <li>Database integration</li>
             </ul>
             <p className='font-nun text-center'>
-              PHP | JavaScript | MySQL | Laravel | HTML | CSS | Tailwind
+              PHP | JavaScript | MySQL | Laravel | HTML | Tailwind
             </p>
           </div>
           <div className='p-4'>
