@@ -16,8 +16,8 @@ export default function Projects({className}) {
           <div className='flex flex-col justify-top'>
             <h1 className='font-nun text-3xl text-center text-gray-200'>Voice operated flashcards</h1>
             <ul className='p-2 my-2 font-nun font-medium font-lg bg-slate-200 text-gray-700 list-disc list-inside rounded-md'>
-              <li>Voice recognition</li>
-              <li>Text to speech</li>
+              <li>Voice recognition & Text to speech</li>
+              <li>MVC Design</li>
               <li>User accounts</li>
               <li>Email verification</li>
               <li>Security protection</li>
@@ -44,9 +44,9 @@ export default function Projects({className}) {
               <li>Compound interest calculator</li>
               <li>Income tax calculator</li>
               <li>Finance projection up to 30 years</li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Uses object oriented classes</li>
+              <li>Includes a basic MVC design</li>
+              <li>Helps to estimate budgets over a long term</li>
             </ul>
             <p className='font-nun text-center'>
               Java | Java Swing
