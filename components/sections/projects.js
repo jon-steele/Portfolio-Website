@@ -29,8 +29,7 @@ export default function Projects({className}) {
           </div>
           <div className='p-4'>
           <a href='https://voci.ca' target="_blank" rel="noreferrer">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/vUxK-ME992Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </a>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zXr1FKg41f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </a>
             <div className='flex justify-evenly mt-4'>
               <a href='https://voci.ca' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 mr-2'>voci.ca</h1></a>
               <a href='https://github.com/vociapp/voci' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 ml-2'>Source</h1></a>
