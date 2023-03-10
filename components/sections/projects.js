@@ -12,7 +12,7 @@ export default function Projects({className}) {
       <div className='flex flex-col md:flex-row justify-around gap-8'>
 
         {/* Project one */}
-        <div className='flex flex-col items-left my-16'>
+        <div className='flex flex-col items-left my-16 w-full'>
           <div className='flex flex-col justify-top'>
             <h1 className='font-nun text-3xl text-center text-gray-200'>Voice operated flashcards (voci)</h1>
             <ul className='p-2 my-2 font-nun font-medium font-lg bg-slate-200 text-gray-700 list-disc list-inside rounded-md'>
@@ -29,7 +29,7 @@ export default function Projects({className}) {
           </div>
           <div className='p-4'>
           <a href='https://voci.ca' target="_blank" rel="noreferrer">
-          <iframe className='w-full' src="https://www.youtube.com/embed/zXr1FKg41f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </a>
+          <iframe className='w-full h-' src="https://www.youtube.com/embed/zXr1FKg41f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </a>
             <div className='flex justify-evenly mt-4'>
               <a href='https://voci.ca' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 mr-2'>voci.ca</h1></a>
               <a href='https://github.com/vociapp/voci' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 ml-2'>Source</h1></a>
@@ -38,7 +38,7 @@ export default function Projects({className}) {
         </div>
 
         {/* Project two */}
-        <div className='flex flex-col items-left my-16'>
+        <div className='flex flex-col items-left my-16 w-full'>
           <div className='flex flex-col justify-top'>
             <h1 className='font-nun text-3xl text-center text-gray-200'>Finance Projection</h1>
             <ul className='p-2 my-2 font-nun font-medium font-lg bg-slate-200 text-gray-700 list-disc list-inside rounded-md'>
