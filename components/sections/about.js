@@ -5,8 +5,8 @@ export default function About({className}) {
 
             <p className="text-left font-nun text-xl md:text-2xl lg:text-3xl leading-10 !important font-normal break-words">
                 
-                In my studies, I excel in my algorithms & data structures courses, achieving a <em className="font-bold">3.93 GPA </em> 
-                in my last three semesters and landing my name on the <em className="font-bold">Dean&apos;s List. </em>
+                In my studies, I excel in my algorithms & data structures courses, achieving a <em className="font-bold">4.0 GPA </em> 
+                in my last three semesters and landing my name on the <em className="font-bold">Dean&apos;s List twice. </em>
                 I have strong foundational knowledge in programming languages, design models, and time complexity.
                 In 2020, I was awarded <em className="font-bold">Employee of the Year</em> at my previous job as a lifeguard.
                 In my spare time, I enjoy learning about new technologies, and recently added React, Next, and Tailwind into my skillset.
