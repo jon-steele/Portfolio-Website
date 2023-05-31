@@ -9,9 +9,9 @@ export default function Skills({className}) {
         <h1 className="px-4 py-2 text-4xl mb-4 text-slate-200 bg-gray-700 rounded-md animate">Languges</h1>
 
         <SkillHeader title="Java & C++"/>
-        <SkillHeader title="Html & Css"/>
-        <SkillHeader title="Php"/>
-        <SkillHeader title="JavaScript"/>
+        <SkillHeader title="PHP"/>
+        <SkillHeader title="HTML"/>
+        <SkillHeader title="CSS"/>
 
       </div>
       <div className='flex flex-col justify-center items-center'>
@@ -30,7 +30,7 @@ export default function Skills({className}) {
 
         <SkillHeader title="Git"/>
         <SkillHeader title="Node"/>
-        <SkillHeader title="Tailwind"/>
+        <SkillHeader title="Linux"/>
         <SkillHeader title="MySQL"/>
 
       </div>
