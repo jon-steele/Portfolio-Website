@@ -34,7 +34,7 @@ export default function Index() {
 
         <div className='bg-wave2 bg-cover bg-bottom bg-no-repeat bg-gray-700 wave'></div>
         <a className='anchor' id="skills"></a>
-        <Skills className="py-16 flex flex-col md:flex-row justify-evenly items-center gap-36" />
+        <Skills className="py-16 flex items-center flex-col md:flex-row md:justify-evenly md:items-start gap-36" />
 
         <div className='bg-wave3 bg-cover bg-bottom bg-no-repeat bg-slate-200 wave'></div>
         <a className='anchor' id="about" ></a>
