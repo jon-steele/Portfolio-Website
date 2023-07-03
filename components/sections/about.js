@@ -1,6 +1,7 @@
 export default function About({className}) {
     return(
-        <section className={className}> 
+    <div className="w-full">
+        <div className={className}> 
             <h className="text-center font-ds text-4xl md:text-6xl animate mx-auto">How can I help?</h>
 
             <p className="text-left font-nun text-xl md:text-2xl lg:text-3xl leading-10 !important font-normal break-words">
@@ -15,6 +16,10 @@ export default function About({className}) {
                 email,</a> or call me at <a href="tel:+6049976356"><em className="font-bold">604-997-6356</em>.</a>
 
             </p>
-        </section>
+
+        </div>
+
+        <div className="h-32 w-full bg-wave4 bg-cover bg-bottom"></div>
+    </div>
     );
 }
