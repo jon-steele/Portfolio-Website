@@ -7,6 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {
+      textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+      backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
       fontFamily: {
         ds: ['DM Serif Display'],
         nun: ['Nunito'],
