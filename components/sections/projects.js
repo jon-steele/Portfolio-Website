@@ -7,7 +7,7 @@ export default function Projects({className}) {
   return (
     <section className={className}>
 
-      <h1 className='text-center font-ds text-4xl md:text-6xl mx-auto mb-8'>My Projects</h1>
+      <h1 className='text-center font-ds text-4xl md:text-6xl mx-auto mb-8'>Projects</h1>
 
       {/* Container which holds all projects */}
       <div className='flex flex-col md:flex-row justify-around gap-8'>
@@ -74,7 +74,7 @@ export default function Projects({className}) {
           <div className='p-4'>
             <Image src={waypointpng} alt='waypoint site' className='rounded-md' />
             <div className='flex justify-evenly mt-4'>
-              <a href='http://jonsteele.services:1535' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 mr-2'>voci.ca</h1></a>
+              <a href='http://jonsteele.services:1535' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 mr-2'>Site</h1></a>
               <a href='https://github.com/jon-steele/WaypointAquatics' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 ml-2'>Source</h1></a>
             </div>
           </div>
