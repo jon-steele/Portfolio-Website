@@ -1,5 +1,3 @@
-import Gigi from '../../public/images/gigi.jpg';
-
 import Image from 'next/image';
 
 export default function Hobbies({className}){
@@ -18,7 +16,7 @@ export default function Hobbies({className}){
         </p>
 
         <div className="flex flex-row justify-center mt-8 gap-8">
-          <Image src={Gigi} alt="Gigi" className="rounded-md" layout='responsive' width={300} height={300} />        </div>
+          <Image src='/images/gigi.jpg' alt="Gigi" className="rounded-md" layout='responsive' width={300} height={300} />        </div>
 
 
       </div>
