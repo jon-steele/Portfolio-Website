@@ -10,7 +10,7 @@ export default function Projects({className}) {
       <h1 className='text-center font-ds text-4xl md:text-6xl mx-auto mb-8'>Projects</h1>
 
       {/* Container which holds all projects */}
-      <div className='flex flex-col md:flex-row justify-around gap-8'>
+      <div className='flex flex-col md:flex-row justify-around gap-8 p-8'>
 
         {/* Project one */}
         <div className='flex flex-col items-left my-16 w-full'>
@@ -82,6 +82,7 @@ export default function Projects({className}) {
 
       </div>
 
+    <div className="h-32 w-full bg-wave3 bg-cover bg-bottom"></div>
     </section>
   )
 }

@@ -4,7 +4,7 @@ export default function Skills({ className }) {
   return (
     <div className="w-full">
       <div className={className}>
-        <h1 className="text-center font-ds text-4xl md:text-6xl mx-auto mb-8">
+        <h1 className="text-center font-ds text-4xl md:text-6xl mx-auto mb-0">
           Skills & Experience
         </h1>
 
@@ -119,7 +119,6 @@ export default function Skills({ className }) {
 
 
       </div>
-      <div className="h-32 w-full bg-wave3 bg-cover bg-bottom"></div>
     </div>
   );
 }
