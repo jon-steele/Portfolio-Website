@@ -16,7 +16,7 @@ export default function Hobbies({className}){
         </p>
 
         <div className="flex flex-row justify-center mt-8 gap-8">
-          <Image src='/images/gigi.jpg' alt="Gigi" className="rounded-md" layout='responsive' width={300} height={300} />        </div>
+          <Image src='/gigi.png' alt="Gigi" className="rounded-md" layout='responsive' width={300} height={300} />        </div>
 
 
       </div>
