@@ -1,6 +1,4 @@
-import Gigi from '@/public/images/gigi.JPG';
-import Pianist from '@/public/images/pianist.JPG';
-import Camping from '@/public/images/camping.jpeg';
+import Gigi from '../../public/images/gigi.jpg';
 
 import Image from 'next/image';
 
