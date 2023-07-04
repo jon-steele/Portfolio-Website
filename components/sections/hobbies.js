@@ -1,4 +1,4 @@
-import Gigi from '../../public/images/gigi.jpg';
+import Gigi from '/public/images/gigi.jpg';
 
 import Image from 'next/image';
 
