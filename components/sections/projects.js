@@ -74,7 +74,7 @@ export default function Projects({className}) {
           <div className='p-4'>
             <Image src={waypointpng} alt='waypoint site' className='rounded-md' />
             <div className='flex justify-evenly mt-4'>
-              <a href='http://jonsteele.services:1535' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 mr-2'>Site</h1></a>
+              <a href='https://waypoint.jonsteele.services' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 mr-2'>Site</h1></a>
               <a href='https://github.com/jon-steele/WaypointAquatics' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 ml-2'>Source</h1></a>
             </div>
           </div>
