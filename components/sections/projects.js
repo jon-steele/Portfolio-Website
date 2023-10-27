@@ -2,6 +2,7 @@ import Image from 'next/image';''
 import vocipng from '@/public/images/voci1.png';
 import budgetpng from '@/public/images/budget.png';
 import waypointpng from '@/public/images/waypoint.png';
+import minimal from '@/public/images/minimal.png';
 
 export default function Projects({className}) {
   return (
@@ -38,21 +39,21 @@ export default function Projects({className}) {
         {/* Project two */}
         <div className='flex flex-col items-left my-16 w-full'>
           <div className='flex flex-col justify-top'>
-            <h1 className='font-nun text-3xl text-center text-gray-200'>Finance Projection</h1>
+            <h1 className='font-nun text-3xl text-center text-gray-200'>Minimal Budget</h1>
             <ul className='p-2 my-2 font-nun font-medium font-lg bg-slate-200 text-gray-700 list-disc list-inside rounded-md'>
               <li>Successfully planned, developed, and meticulously tested the robust application using a meticulously crafted object-oriented design methodology.</li>
-              <li>Skillfully implemented a wide range of advanced features, including efficient expense tracking, accurate income tax estimation, and precise compound interest calculations, catering to the complex financial needs of users.</li>
-              <li>Demonstrated exceptional proficiency in utilizing Java and the Java Swing library to meticulously develop, optimize, and seamlessly integrate both the core methods and the intuitive user interface, ensuring a seamless user experience.</li>
+              <li>Skillfully implemented a wide range of advanced features, including expense tracking, data analytics, and compound interest calculations, catering to the financial needs of users.</li>
+              <li>Demonstrated exceptional proficiency in learning the Flutter library to meticulously develop, optimize, and seamlessly integrate both the core methods and the intuitive user interface, ensuring a seamless user experience.</li>
             </ul>
             <p className='font-nun text-center'>
-              Java | Java Swing
+              Flutter | Firebase | Dart
             </p>
           </div>
           <div className='p-4'>
-          <Image src={budgetpng} alt='Budget Projection' className='rounded-md' />
+          <Image src={minimal} alt='Minimal Budget' className='rounded-md' />
           <div className='flex justify-evenly mt-4'>
-              <a href='/Budget.jar' download target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 mr-2'>Download</h1></a>
-              <a href='https://github.com/jon-steele/Budget-Projection' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 ml-2'>Source</h1></a>
+              <a href='https://minimalbudget.ca' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 mr-2'>minimalbudget.ca</h1></a>
+              <a href='https://jonsteele.ca/api/minimaldocs' target="_blank" rel="noreferrer"><h1 className='bg-slate-200 text-gray-700 rounded-md p-2 ml-2'>Docs</h1></a>
             </div>
           </div>
         </div>
